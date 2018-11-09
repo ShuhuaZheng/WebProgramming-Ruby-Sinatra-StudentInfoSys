@@ -49,7 +49,6 @@ GEM
       tilt (>= 2.0.6, < 2.1)
     temple (0.8.0)
     tilt (2.0.8)
-    webrick (1.4.2)
 
 PLATFORMS
   ruby
@@ -64,7 +63,6 @@ DEPENDENCIES
   sass
   sinatra
   slim
-  webrick
 
 RUBY VERSION
    ruby 2.5.1p57
