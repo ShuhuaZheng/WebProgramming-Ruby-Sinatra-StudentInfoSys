@@ -1,0 +1,22 @@
+<h2>Comment Detail</h2>
+
+<table id="tbl">
+	<tr>
+		<th>User Name</th>
+		<th>Comment Content</th>
+		<th>Created Time</th>
+	</tr>
+
+	<tr>
+		<th><%= @comment.name %></th>
+		<th><%= @comment.content %></th>
+		<th><%= @comment.created_at%></th>
+	</tr>
+</table>
+
+<div class="back">
+	<a href="/comment">Back</a>
+</div>
+<!--<div class="delete">
+	<a href="/deleteComment/<%= @comment.id %>">Delete</a><br>
+</div>-->

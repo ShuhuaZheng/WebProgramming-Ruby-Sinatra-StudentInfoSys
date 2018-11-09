@@ -1,0 +1,22 @@
+<h2>Please Login</h2>
+
+<% if @not_admin %>
+	<p><font color="blue">Please login to view/add/edit students information</font></p>
+<% elsif @incorrect_info %>	
+	<p><font color="red">Incorrect username or password. Try again.</font></p>
+<% end %>
+
+
+<form action = '/login' method='post'>
+	<b><label for="username">Username</label></b>
+	<input type='text' id="fname" name='username'></input><br>
+
+	<b><label for="password">Password</label></b>
+	<input type='text' id="fname" name='password'></input><br>
+	
+	<input type="submit" name="submit" value="Submit"></input>
+</form> 
+
+<div class="registerLink">
+	<p>Don't have an account?<a href="/register"> Create one</a> </p>
+</div>

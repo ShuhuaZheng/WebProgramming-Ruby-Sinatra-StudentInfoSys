@@ -1,0 +1,25 @@
+<h2>Student Information</h2>
+
+<table id="tbl">
+	<tr>
+		<th>Student ID</th>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		<th>Birthday</th>
+		<th>Address</th>
+	</tr>
+
+	<tr>
+		<th><%= @student.id %></th>
+		<th><%= @student.firstname %></th>
+		<th><%= @student.lastname %></th>
+		<th><%= @student.birthday %></th>
+		<th><%= @student.address %></th>
+	</tr>
+</table>
+
+<div class="editDelete">
+	<a href="/students">Back</a>	|
+	<a href="/editStudent/<%= @student.id %>">Edit</a>
+	<a href="/deleteStudent/<%= @student.id %>">Delete</a><br>
+</div>

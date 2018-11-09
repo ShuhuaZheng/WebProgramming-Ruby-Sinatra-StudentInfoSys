@@ -1,0 +1,21 @@
+<h2>Edit Student Information</h2>
+
+<form action='/editStudent' method='post'>
+
+	<input type='hidden' name='id' value=<%= @id %>></input><br>
+
+	<b><label for="firstname">First Name *</label></b>
+	<input type="text" name="firstname" value=<%= @student.firstname %>>
+
+	<b><label for="lastname">Last Name *</label></b>
+	<input type="text" name="lastname" value=<%= @student.lastname %>>
+	
+	<b><label for="birthday">Birthday *</label></b>
+	<input type="date" name="birthday" value=<%= @student.birthday %>>
+
+	<b><label for="address">Address *</label></b>
+	<input type="text" name="address" value="<%= @student.address %>"><br>
+
+	<input type='submit' value="Update"></input>
+
+</form>

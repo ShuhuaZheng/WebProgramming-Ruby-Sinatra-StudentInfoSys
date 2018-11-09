@@ -1,0 +1,25 @@
+<h2>Create a new Student information</h2>
+<form action='/addStudent' method='post'>
+	<!--if some info is missing -->
+	<% if @lack_info %> 
+		<p><font color="red">Please enter all information</font></p>
+	<% end %>
+
+	<b><label for="firstname">First Name *</label></b>
+	<input type="text" id="fname" name="firstname" >
+
+	<b><label for="lastname">Last Name *</label></b>
+	<input type="text" id="lname" name="lastname" >
+
+	<b><label for="studentId">Student ID *</label></b>
+	<input type="text" id="studentId" name="id" ><br>
+
+	<b><label for="birthday">Birthday *</label></b>
+	<input type="date" id="birthday" name="birthday" >
+
+	<b><label for="address">Address *</label></b>
+	<input type="text" id="address" name="address" ><br>
+
+	<input type='submit' name='submit' value="Add"></input>
+
+</form>
