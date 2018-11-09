@@ -7,7 +7,7 @@ gem "dm-core"
 gem "dm-migrations"
 gem "thin"
 gem "dm-timestamps"
-gem "pg", :group => :production
-gem "dm-postgres-adapter", :group => :production 
+gem "pg"
+gem "dm-postgres-adapter" 
 gem "dm-sqlite-adapter", :group => :development
 
