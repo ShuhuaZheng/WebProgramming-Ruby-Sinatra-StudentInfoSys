@@ -1,11 +1,12 @@
-# Student Inofrmation System - Sinatra Website
+# Student Information System - Sinatra Website
 Assignment 2  for Course COEN278 Web Programming
 
 ## Goal 
-Create a website using Sinatra 
+Create a website using Sinatra. 
+- There are 4 main functions: students, comment, video, login/logout. 
+- erb template is used 
 
-## Creator 
-Student Name: Shuhua Zheng 
-Student ID:   W1289984
+## How to Download
+Download or clone the project, then run command "bundle install" to install all the necessary ruby gems. Now run "ruby main.rb" to start the server locally. 
 
-##Heroku app URL: 
+##You can also view the website through Heroku app URL: https://sinatra-assignment2.herokuapp.com/
